@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+:root {
+    --header-color: #000000;
+    --border-bottom-color: #18D0EE;
+    --box-color: #0D1722;
+}
+
+
+* {
+    font-family: "Ubuntu Mono", monospace;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('./../image/background_stars_grid.jpg');
+}
+
+/* ====== navbar =====  */
+
+.navimg {
+    width: 290px;
+}
+
+.navBg {
+    background-color: var(--header-color);
+    border-bottom: 1px solid var(--border-bottom-color);
+}
+
+.nav_ul li {
+    border: 1px solid var(--border-bottom-color);
+    border-radius: 10px;
+    text-transform: uppercase;
+    background-color: #0C2C35;
+}
+
+/* ==== end navbar ====  */
+
+
+/* ====== Banner ====  */
+.carousel_content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+    padding: 20px;
+}
+
+.carouse_content_text {
+    width: 60%;
+    backdrop-filter: blur(60px);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.carouse_content_text p {
+    font-size: 22px;
+    color: #F86703;
+    font-weight: 800;
+}
+
+.carouse_content_text h1 {
+    font-size: 44px;
+    font-weight: 800;
+}
+
+.carousel_all_Content {
+    height: 100vh;
+}
+
+/* ==== end banner ====  */
+.notice_section {
+    background-color: var(--box-color);
+    padding: 20px;
+    border: 1px solid var(--border-bottom-color);
+    border-radius: 10px;
+}
+
+/* .notice {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+} */
+
+.notice_img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.notice a {
+    text-decoration: none;
+}
+
+.notice a h1 {
+    font-size: 24px;
+    margin-top: 4px;
+}
+
+/* ====== telesecope bangladesh =====  */
+
+.telescopeBd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border: 1px solid var(--border-bottom-color);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.telescopeBd div h1 {
+    font-weight: 800;
+}
+
+.telescope_list {
+    padding-left: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 18px;
+}
+
+.telescope_donate {
+    border: 1px solid var(--border-bottom-color);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--box-color);
+}
+
+.telescope_donate h1 {
+    font-size: 26px;
+}
+
+.telescope_donate button {
+    background-color: transparent;
+    border: 1px solid var(--border-bottom-color);
+    color: white;
+    padding: 8px 10px 8px 10px;
+    font-size: 20px;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.telescope_donate button:hover {
+    font-weight: bold;
+}
+
+
+/* ===== shop ==== */
+.shop_box {
+    border: 1px solid var(--border-bottom-color);
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.shop_box h1 {
+    font-weight: 800;
+    color: #18D0EE;
+}
+
+.shop_box_content {
+    background-color: var(--box-color);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.shop_box_content img {
+
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.shop_box_content h3 {
+    margin-top: 20px;
+}
+
+.shop_box_content h1 {
+    font-size: 30px;
+}
+
+.shop_box_content button {
+    background-color: transparent;
+    padding: 10px;
+    color: white;
+    border: 1px solid var(--border-bottom-color);
+    font-weight: 500;
+    border-radius: 6px;
+    text-transform: uppercase;
+    background: var(--box-color);
+}
+
+.shop_box_content button:hover {
+    font-weight: 900;
+}
+
+.shop_box_content a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+    height: 560px;
+}
+
+.shop_box_content a p {
+    font-size: 18px;
+}
+
+.others_product {
+    background-color: transparent;
+    border: 1px solid var(--border-bottom-color);
+    color: white;
+    padding: 15px 20px 15px 20px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    margin-top: 20px;
+    background-color: var(--box-color);
+}
+
+.others_product:hover {
+    font-weight: 900;
+}
+
+
+/* ==== partner ====  */
+.partner_box {
+    border: 1px solid var(--border-bottom-color);
+    padding: 16px;
+    border-radius: 20px;
+    background-color: var(--box-color);
+}
+
+.partner_box h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+
+.partner_box_item {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+}
+
+.partner_box_item img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+/* ======= media ======  */
+
+.media {
+    border: 1px solid var(--border-bottom-color);
+    padding: 20px;
+    border-radius: 15px;
+    background-color: var(--box-color);
+}
+.media h1 {
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.media_box {
+display: grid;
+grid-template-columns: auto auto auto auto;
+}
+.media_box a {
+    text-decoration: none;
+    text-align: center;
+}
+.media_box a img {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid var(--border-bottom-color);
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.media_box a h1 {
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.media_box a h1:hover {
+color: blue;
+    transition: color 0.3s ease-in-out;
+}
+
+
+/* ==== footer =====  */
+
+.footer_left_img img
+{
+    width: 100%;
+}
+
+.footer_middle_content h1 {
+    color: white;
+    font-weight: 800;
+    font-size: 30px;
+}
+.footer_middle_content ul {
+    padding-left: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.footer_middle_content ul li a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.footer_middle_content ul li a:hover {
+    color:  blue;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer_right_content{
+    color: white;
+}
+.footer_right_content h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+.footer_right_content ul {
+    padding-left: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.footer_right_content ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.footer_right_content ul li a:hover {
+    color: blue;
+    transition: color 0.3s ease-in-out;
+}
+.footer_right_content h2 {
+    font-size: 22px;
+    margin-top: 20px;
+}
+.footer_content_icon span {
+    border: 1px solid var(--border-bottom-color);
+    padding: 10px;
+    width:50px;
+    text-align: center;
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: var(--box-color);
+
+}
+.footer_right_content h1 {
+    font-size: 30px;
+}
+.footer_bottom_text{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 800;
+    color: white;
+}
+/* =====responsive =====  */
+@media screen and (max-width: 768px) {
+
+    /* ==== banner responsive ====  */
+    .carouse_content_text {
+        width: 80%;
+        backdrop-filter: blur(10px);
+    }
+
+    .carouse_content_text p {
+        font-size: 15px;
+    }
+
+    .carouse_content_text h1 {
+        font-size: 22px;
+        font-weight: 800;
+    }
+
+    .carousel_all_Content {
+        height: auto;
+    }
+
+    /* ===== notice ====  */
+/* 
+    .notice {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    } */
+
+    .notice a h1 {
+        font-size: 20px;
+        margin-top: 4px;
+    }
+
+    /* ===== telescope bangladesh =====  */
+    .telescopeBd {
+        flex-direction: column;
+    }
+
+    .telescope_list {
+        font-size: 16px;
+    }
+
+
+    /* ==== shop  =====  */
+    .shop_box_content {
+        flex-direction: column;
+    }
+
+    /* ====== partner =====  */
+    .partner_box_item {
+        grid-template-columns: auto auto;
+    }
+/* ==== media ====  */
+.media_box {
+    grid-template-columns: auto;
+}
+
+
+/* ===== footer ====  */
+.footer_left_img {
+    margin-bottom: 10px;
+}
+.footer_left_img img {
+    width: 56%;
+}
+
+.footer_bottom_text {
+    margin-top: 40px;
+}
+
+}
