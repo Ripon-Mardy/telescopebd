@@ -9,7 +9,6 @@ for(let i = 0; i < bounds.length; i++) {
   bounds[i].addEventListener('keyup', () => targetEl.innerText = bounds[i].value || defValue );
 }
 
-
 /* TOGGLE CVC DISPLAY MODE */
 const cvc_toggler = document.getElementById('cvc_toggler');
 
@@ -18,6 +17,8 @@ cvc_toggler.addEventListener('click', () => {
   const el = document.getElementById(target);
   el.setAttribute('type', el.type === 'text' ? 'password' : 'text');
 });
+
+
 
 
 /* TIMER COUNTDOWN */

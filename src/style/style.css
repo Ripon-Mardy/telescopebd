@@ -19,6 +19,15 @@ body {
     background: url('./../image/background_stars_grid.jpg');
 }
 
+.custom_button {
+border: 1px solid var(--border-bottom-color);
+padding: 10px;
+color: white;
+text-transform: capitalize;
+background-color: transparent;
+border-radius: 10px;
+}
+
 /* ====== navbar =====  */
 
 .navimg {
@@ -192,26 +201,10 @@ body {
     font-size: 30px;
 }
 
-.shop_box_content button {
-    background-color: transparent;
-    padding: 10px;
-    color: white;
-    border: 1px solid var(--border-bottom-color);
-    font-weight: 500;
-    border-radius: 6px;
-    text-transform: uppercase;
-    background: var(--box-color);
-}
 
-.shop_box_content button:hover {
-    font-weight: 900;
-}
 
 .shop_box_content a {
     text-decoration: none;
-    padding: 10px;
-    border-radius: 8px;
-    height: 560px;
 }
 
 .shop_box_content a p {
@@ -225,6 +218,7 @@ body {
     padding: 15px 20px 15px 20px;
     text-transform: uppercase;
     border-radius: 8px;
+    text-decoration: none;
     margin-top: 20px;
     background-color: var(--box-color);
 }
@@ -462,18 +456,74 @@ color: blue;
 
 
 
+/* ================
+astro shop 
+============== */
 
+.astro-shop {
+  background-color: white;
+}
+.astro-shop-content h1{
+  color: black !important;
+  font-weight: 800;
+  font-size: 50px;
+}
+.astrop_shop_pruduct_list
+{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 30px;
+}
+.astrop_shop_pruduct_list a {
+  text-decoration: none;
+  backdrop-filter: blur(10px);
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--border-bottom-color) ;
+}
 
+.astrop_shop_pruduct_list a div img {
+  width: 100%;
+  border-radius: 10px;
+}
+.astrop_shop_pruduct_list a button {
+  background-color: transparent;
+  padding: 10px;
+  color: white;
+  border: 1px solid var(--border-bottom-color);
+  font-weight: 500;
+  border-radius: 6px;
+  text-transform: uppercase;
+  background: var(--box-color);
+}
 
+/* ==========
+end astro-shop 
+============= */
 
+/* ======== 
+product details 
+=========== */
+.astro_shop_title_section {
+  background-image: url('../image/noblank-images.jpg');
+}
+.astro_heading {
+  text-align: center;
+}
+.astro_heading h1 {
+  font-size: 45px;
+  font-weight: 800;
+}
 
+.astro_shop_title_heading h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: 800;
+}
 
-
-
-
-
-
-
+/* ========= 
+end product details 
+============= */
 
 
 /* ===================
