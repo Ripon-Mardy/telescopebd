@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+::-webkit-scrollbar {
+  background-color: #202327;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #686868;
+}
+
+::-webkit-inner-spin-button {
+  color: white;
+}
 
 :root {
     --header-color: #000000;
@@ -519,6 +531,43 @@ product details
   color: white;
   font-size: 50px;
   font-weight: 800;
+}
+
+
+
+.product_details_payment {
+  background-color: white;
+}
+.product_details_img img {
+  width: 100%;
+  border-radius: 10px;
+}
+.product_details_content h1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.product_details_content h2 {
+  font-size: 22px;
+}
+
+.product_details_content h3 {
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.bank_payment {
+  margin-top: 20px;
+}
+
+.bank_payment p {
+  font-weight: 600;
+}
+.mobile_banking {
+  margin-top: 10px;
+}
+.mobile_banking p {
+  font-weight: 600;
 }
 
 /* ========= 
